@@ -1,0 +1,177 @@
+#home-title{
+    font-size: 1.8rem;
+    margin: 0 0 0.3rem 0;
+    line-height: 1.2;
+    @media (min-width: 420px){
+      font-size: 2.4rem;
+    }
+
+    @include media-sml{
+      font-size: 2.8rem;
+    }
+}
+
+
+
+
+
+#carousel{}
+
+.carousel{
+  position: relative;
+  height: 100%;
+  max-height: 66.66667vw;
+// max-height: 40vw;
+  max-width: 1000px;
+  margin: auto;
+}
+.carousel-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+//    z-index: -10;
+}
+
+.donate-sticker{
+    // position: absolute;
+    background-color: skyblue;
+    font-family: 'Cabin Sketch',
+    cursive;
+    margin-left: 1rem;
+    // line-height: 1.6;
+   
+    // z-index: 10;
+    font-size: 90%;
+    // top: 10%;
+    // right: 5%;
+    padding: 0px 10px;
+    border-radius: 100px;
+    // transform: rotate(25deg);
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+        transform: rotate(20deg);
+        // background: #ecff1d;
+        background: #1dff52;
+        color:white;
+    }
+}
+
+
+
+
+@keyframes anim1 {
+    5%{opacity: 1;}
+
+    15%{opacity: 1;}
+    25%{opacity: 0}
+
+    35%{opacity: 0;}
+    45%{opacity: 0;}
+
+    55%{opacity: 0;}
+    65%{ opacity: 0;}
+
+    75%{opacity: 0;}
+    85%{ opacity: 0;}
+
+    95%{opacity: 0}
+    100%{opacity: .5;}
+}
+
+#carousel-img1 {
+    background-image: url(../photo/hero/cooking.jpg);
+    animation-name: anim1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes anim2 {
+    5%{opacity: 0;}
+
+    15%{opacity: 0;}
+    25%{opacity: 1}
+
+    35%{opacity: 1;}
+    45%{opacity: 0;}
+
+    55%{opacity: 0;}
+    65%{ opacity: 0;}
+
+    75%{opacity: 0;}
+    85%{ opacity: 0;}
+
+    95%{opacity: 0}
+    100%{opacity: 0;}
+}
+
+#carousel-img2 {
+    background-image: url(../photo/hero/library.jpg);
+    animation-name: anim2;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes anim3 {
+    5%{opacity: 0;}
+
+    15%{opacity: 0;}
+    25%{opacity: 0}
+
+    35%{opacity: 0;}
+    45%{opacity: 1;}
+
+    55%{opacity: 1;}
+    65%{ opacity: 0;}
+
+    75%{opacity: 0;}
+    85%{ opacity: 0;}
+
+    95%{opacity: 0}
+    100%{opacity: 0;}
+}
+
+#carousel-img3 {
+    background-image: url(../photo/hero/surf1.jpg);
+    animation-name: anim3;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim4 {
+    5%{opacity: 0;}
+
+    15%{opacity: 0;}
+    25%{opacity: 0}
+
+    35%{opacity: 0;}
+    45%{opacity: 0;}
+
+    55%{opacity: 0;}
+    65%{ opacity: 1;}
+
+    75%{opacity: 1;}
+    85%{ opacity: 0;}
+
+    95%{opacity: 0}
+    100%{opacity: 0;}
+}
+
+#carousel-img4 {
+    background-image: url(../photo/hero/volunteers2.jpg);
+    animation-name: anim4;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+#carousel-img5{
+    background-image: url(../photo/hero/library2.jpg);
+}

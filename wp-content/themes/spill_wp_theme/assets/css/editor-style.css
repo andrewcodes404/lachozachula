@@ -1,0 +1,13 @@
+/*html .mceContentBody {
+  max-width: 640px;
+  padding: 10px;
+}
+*/
+
+@import url( 'main.css' );
+
+
+html .mceContentBody {
+  max-width: 600px;
+  padding: 10px;
+}

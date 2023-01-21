@@ -1,0 +1,142 @@
+/////my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar///my nav-bar
+
+// 😱 😱 😱 NEW SASS FOR NAV 😱 😱 😱
+
+// stuff for the translate button
+
+// < !-- <div class="translate-btn p05 flex-col justify-center my-test"><?php echo do_shortcode('[google-translator');
+// ?></div>-->
+
+
+
+.nav-cont {
+    max-width: 650px;
+    margin: auto;    
+    position: relative;
+}
+
+.logo {
+    padding: 8px 0;
+}
+
+.nav-bar {
+    width: 85%;   
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    margin: 0 auto 1rem;
+    @include media-sml {
+         flex-direction: row;
+         
+       }
+
+    
+    justify-content: space-between;
+    font-family: 'Cabin Sketch', cursive;
+    // border: 1px dotted tomato; ///li = all the links in the nav bar
+    .menu-item {
+        
+         cursor: pointer;
+         list-style-type: none;
+        //  background-color: rgba(255, 255, 255, 0.5);
+         padding: 0 10px;
+         margin: 3px 5px;
+     font-size: 1.4rem;
+        @include media-sml {
+           
+        }
+     
+    }
+    
+}
+
+.menu-item-has-children{
+    position: relative;
+}
+
+
+.sub-menu {
+
+     @include media-sml {
+         position: absolute;
+     }
+
+    li{
+        background-color: skyblue;
+    }
+    left: -5px;
+    z-index: 1;
+    // background: grey; //SUB MENU LI
+    display: none;
+    li {
+        // display: none;
+    }
+}
+
+
+
+// 👇 👇 👇 OLD SASS FOR NAV 👇 👇 👇
+// .w1300 {
+//     max-width: 1300px;
+//     margin: auto;
+// }
+
+
+
+
+
+// .nav-btn {
+//   background-image: url('../graphics/splodge-btn.svg');
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   vertical-align: middle;
+//   height: 2.3rem;
+//   @include media-sml {
+//     height: 2.6rem;
+//   }
+//   @include media-med {
+//     height: 2.6rem;
+//   }
+//   p {
+//     font-size: 1.3rem;
+//     @include media-sml {
+//       font-size: 1.4rem
+//     }
+//     @include media-med {
+//       font-size: 1.6rem;
+//     }
+//     cursor: pointer;
+//   }
+// }
+// .the-splodge {
+//   z-index: 1;
+//   position: absolute;
+//   text-align: left;
+//   top: 48vmin;
+//   right: 1rem;
+//   left: auto;
+//   padding: 2rem 3rem 3rem 4rem;
+//   @media (min-width: 375px) {
+//     top: 35vmin;
+//   }
+//   @include media-sml {
+//     top: 6rem;
+//   }
+//   background-image: url('../graphics/drop-down-splodge.svg');
+//   background-repeat: no-repeat;
+//   background-position: top;
+//   background-size: cover;
+//   ul {
+//     padding: 3rem 0;
+//   }
+//   li {
+//     font-size: 1.8rem;
+//     line-height: 1.2;
+//     list-style: none;
+//     transform: scale(1);
+//     transition: .2s;
+//     &:hover {
+//       transform: scale(1.05);
+//     }
+//   }
+// }

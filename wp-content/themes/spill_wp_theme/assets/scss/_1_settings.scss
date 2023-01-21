@@ -1,0 +1,95 @@
+/////////////////////////////////
+///****   settings.scss   ****///
+/////////////////////////////////
+
+//////STOPS SAFARI INVENTING Horizontal Scroll
+html { overflow-x: hidden;}
+body { overflow-x: hidden;}
+
+$body-max-width : 1000px;
+
+
+///images
+img{
+	width:100%;
+	vertical-align: bottom; //stops that annoying 2px gap at the btm of imgs
+	height: auto;
+}
+
+///***************///
+///**typography**///
+///***************///
+
+///body font
+$body-font : 'Raleway', sans-serif;
+$body-line-height: 1.5;
+$body-font-weight: 300;
+
+///header fonts
+
+// $header-font: 'Cabin Sketch', cursive;
+h1, h2{font-family: 'Cabin Sketch', cursive; }
+$header-font-weight: 200;
+$header-line-height: 1.2;
+$header-margin-bottom: .8rem;
+
+
+h3{
+  font-weight: 600;
+}
+///Dont forget these are being converted to rems and then using the html px size to be responsive -> _typography.scss
+$h1    :  45px;
+$h2    :  30px;
+$h3    :  25px;
+$h4    :  20px;
+$h5    :  18px;
+$p     :  16px;
+$small :  14px;
+
+//links
+$links : black;
+$links-hover : grey;
+
+$links-secondary : red;
+$links-secondary-hover : skyblue;
+
+///lists
+
+// $bulletpoints : true;
+// $bullet-style : "wifrwiu";
+
+///***************///
+///**Breakpoints**///
+///***************///
+
+$media-sml: 576px;
+$media-med: 768px;
+$media-lrg: 992px;
+$media-lrg-xl: 1200px;
+
+//Padding and margins
+$global-margin: 1rem;
+$global-padding: 1rem;
+
+$padding1  :  1rem;
+$padding2  :  2rem;
+$padding3  :  3rem;
+
+$margin1  :  1rem;
+$margin2  :  2rem;
+$margin3  :  3rem;
+
+$background-color1 : darkcyan;
+$background-color2 : #f66100;
+$background-color3 : #854470;
+
+$columns-width: 225px;
+
+//colors
+
+$primary : skyblue;
+$hover: grey;
+
+$lightgrey	: #d7d7d7;
+$grey				: #919191;
+$darkgrey		: #505050;

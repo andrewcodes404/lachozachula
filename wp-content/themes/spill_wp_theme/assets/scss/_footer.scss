@@ -1,0 +1,111 @@
+/////********//////
+/////FOOTER////////
+/////********//////
+
+footer{
+    border-top: 2px solid lightgrey;
+    width: 90%;
+    margin: 2rem auto 0;
+    padding: 20px  0;
+    @media(min-width: 375px){
+        padding: 20px  0;
+    }
+
+    @media(min-width:768px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    li{
+      list-style: none;
+    }
+}
+
+
+.footer-left{
+    display: none;
+    @media(min-width:768px){
+        display: flex;
+        flex-direction: row;
+        padding-top: 5px;
+        img{
+            width: 100px;
+        }
+
+        p{
+            font-size: 12px;
+            line-height: 14px;
+            margin: 0;
+        }
+    }
+}
+
+.icon-cont{
+  font-size: 28px;
+  padding-left: 10px;
+}
+
+.fa{
+    margin-right: 10px;
+    background-color: $primary;
+    padding: 3px 5px;
+    border-radius: 3px;
+  }
+
+.footer-right-row{
+  display: flex;
+  flex-direction: row;
+  ul{
+      margin-right: 10px;
+      @media(min-width: 375px){
+          margin-right: 20px;
+      }
+      @media(min-width: 414px){
+          margin-right: 25px;
+      }
+  }
+
+  li{
+    transform: scale(1);
+    transition: .2s;
+    &:hover{
+       transform: scale(1.1);
+    }
+    position: inherit;
+
+
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 18px;
+      @media(min-width: 414px){
+          font-size:18px;
+          line-height: 20px;
+      }
+  }
+
+  .li-title{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    @media(min-width: 414px){
+      font-size: 22px;
+      line-height: 22px;
+    }
+  }
+}
+
+.andrewcodes{
+  font-size: 13px;
+  margin-top: 10px;
+  span{
+      background-color: $primary;
+      padding: 0 5px;
+      border-radius: 5px;
+  }
+  a, a:link, a:visited, a:active {
+  text-decoration: none;
+  color: white; }
+  a:hover{color: grey; }
+}

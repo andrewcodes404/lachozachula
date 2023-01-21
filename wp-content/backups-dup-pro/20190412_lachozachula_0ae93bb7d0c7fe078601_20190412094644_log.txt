@@ -1,0 +1,67 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2019-04-12 09:47:02
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	3.8.2
+WORDPRESS:	5.1.1
+PHP INFO:	7.0.33 | SAPI: litespeed
+SERVER:		LiteSpeed 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+RUN TYPE: Manual
+MEMORY STACK: 34MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP (query limit - 500)
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:25 | filtered:0 | create:25 
+FILTERED: [] 
+SCHEMA SIZE: [16252928] 
+SQL CREATED: 20190412_lachozachula_0ae93bb7d0c7fe078601_20190412094644_database.sql 
+SQL FILE SIZE: 8.22MB 
+SQL FILE TIME: 2019-04-12 09:47:03 
+SQL RUNTIME: 0.991 sec. 
+MEMORY STACK: 46MB 
+
+******************************************************************************** 
+ARCHIVE  Type=ZIP Mode=Shell 
+******************************************************************************** 
+ARCHIVE DIR:  /home/andrewc1/public_html/lachozachula.org 
+ARCHIVE FILE: 20190412_lachozachula_0ae93bb7d0c7fe078601_20190412094644_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+FILES:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	223.88MB 
+STATS:	Dirs 975 | Files 7,145 | Total 8,120 
+COMPRESSED SIZE: 155.19MB 
+ARCHIVE RUNTIME: 81.177 sec. 
+MEMORY STACK: 38MB 
+
+******************************************************************************** 
+STORAGE: 
+******************************************************************************** 
+LOCAL: Default, /home/andrewc1/public_html/lachozachula.org/wp-content/backups-dup-pro 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL FILE: 8.22MB 
+INSTALLER FILE: 45.98KB 
+ARCHIVE FILE: 157.28MB  
+EXPECTED FILE/DIRECTORY COUNT: 8,120 
+ACTUAL FILE/DIRECTORY COUNT: 8,127 
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 93.284 sec.
+PEAK PHP MEMORY USED: 34MB
+DONE PROCESSING => 20190412_lachozachula 2019-04-12 09:48:36
+ 
